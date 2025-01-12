@@ -1,0 +1,86 @@
+.container{
+    width: 400px;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content-type{
+    color: rgb(120,120,120);
+    font-family: Arial;
+    font-size: 12px;
+    margin-bottom: 15px;
+
+}
+
+
+.email-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.profile-picture{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.profile-picture2{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.profile-picture3{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+
+
+.text-content{
+    font-family: Arial;
+    flex:1;
+}
+
+.text-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-weight: bold;
+  
+}
+
+.time{
+    font-size: 13px;
+    color: rgb(120,120,120)
+}
+
+.subtitle{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.message{
+    margin-top: 3px;
+    color: rgb(120,120,120)
+}

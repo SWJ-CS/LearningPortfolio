@@ -1,0 +1,82 @@
+/*<!--Refer to Model answer on Website-->*/
+
+
+.profile-pic{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+}
+
+.profile-pic2{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    object-position: top;
+}
+p{
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.friendcount{
+    font-size: 12px;
+    color: rgb(120,120,120);
+    display: inline-block;
+}
+.add-button{
+    background-color: rgb(0, 119, 255);
+    color:white;
+    border:none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.friend-div{
+    width: 150px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.details-div{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;  
+    
+}
+.friend-pic{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.friend-pic2{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: top ;
+    vertical-align: middle;
+}
+
+.friend{
+    display: inline-block;
+}
+
+.secondrow{
+    margin-bottom:5px;
+}
+
+.mutualfriend{
+    vertical-align: middle;
+}
